@@ -44,6 +44,7 @@ class _ReplyAppState extends State<ReplyApp> {
             return MaterialApp.router(
               routeInformationParser: _routeInformationParser,
               routerDelegate: _routerDelegate,
+              debugShowCheckedModeBanner: false,
               themeMode: themeMode,
               title: 'Reply',
               darkTheme: _buildReplyDarkTheme(context),
